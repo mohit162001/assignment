@@ -1,5 +1,5 @@
 import React from 'react'
-import web from "../src/images/img2.svg.png"
+import webimg from "../src/images/img2.svg.png"
 import './Home.css'
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
                                 <input type="search" className="form-control border-end-0 border search" value="search" id="example-search-input" />
                                 <span className='input-group-append'>
                                     <button className="btn btn-outline-secondary bg-white border-start-0 border-bottom-0 border ms-n5" type='button'>
-                                        <i className="fa fa-search"></i>
+                                        <i className="fa fa-search icn" ></i>
                                     </button>
                                 </span>
                             </div>
@@ -27,7 +27,7 @@ const Home = () => {
                     </div>
 
                     <div className="col-lg-6 order-1 order-lg-2 header-img">
-                        <img src={web} alt="" className="img-fluid animated" />
+                        <img src={webimg} alt="" className="img-fluid animated" />
                     </div>
                     </div>
                 </div>

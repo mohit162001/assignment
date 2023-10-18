@@ -12,6 +12,7 @@ function NavBar() {
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
+                <i class="fa-solid fa-crown crown"></i>
                   Landguru
                 </NavLink>
                 <button

@@ -12,12 +12,9 @@ function App() {
   return (
     <>
     <NavBar/>
-    <Routes>
-      <Route exact path='/' Component={Home}/>
-      <Route exact path='/Tutorials' Component={Tutorials}/>
-      <Route exact path='/Boxes' Component={Boxes}/>
-      <Route exact path='/' Component={Footer}/>
-    </Routes>
+    <Home/>
+    <Tutorials/>
+    <Boxes/>
     </>
   );
 }
