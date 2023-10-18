@@ -19,7 +19,11 @@ const Home = () => {
                                 <input type="search" className="form-control border-end-0 border search" value="search" id="example-search-input" />
                                 <span className='input-group-append'>
                                     <button className="btn btn-outline-secondary bg-white border-start-0 border-bottom-0 border ms-n5" type='button'>
+<<<<<<< HEAD
                                        
+=======
+                                        <i className="fa fa-search icn" ></i>
+>>>>>>> 00315add664a54eabe73f3256cd6dec69460ec70
                                     </button>
                                 </span>
                             </div>
@@ -28,9 +32,12 @@ const Home = () => {
 
                     <div className="col-lg-6 order-1 order-lg-2 header-img">
                         <img src={webimg} alt="" className="img-fluid animated" />
+<<<<<<< HEAD
                     </div>
                     <div className="fix-btn">
                     <i class="fa-solid fa-arrow-down arrow"></i>
+=======
+>>>>>>> 00315add664a54eabe73f3256cd6dec69460ec70
                     </div>
                     </div>
                 </div>

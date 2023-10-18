@@ -12,12 +12,19 @@ import Question from "./Question";
 function App() {
   return (
     <>
+<<<<<<< HEAD
       <NavBar />
       <Home />
       <Tutorials />
       <Boxes />
       <Question />
       <Footer />
+=======
+    <NavBar/>
+    <Home/>
+    <Tutorials/>
+    <Boxes/>
+>>>>>>> 00315add664a54eabe73f3256cd6dec69460ec70
     </>
   );
 }

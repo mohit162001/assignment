@@ -31,6 +31,7 @@
     margin-right: 5px;
 }
 
+<<<<<<< HEAD
 #header .animated{
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 } 
@@ -51,3 +52,5 @@
         transform: translateY(-10px);
     }
 }
+=======
+>>>>>>> 00315add664a54eabe73f3256cd6dec69460ec70
