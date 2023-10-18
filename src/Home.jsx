@@ -1,5 +1,5 @@
 import React from 'react'
-import web from "../src/images/img2.svg.png"
+import webimg from "../src/images/img2.svg.png"
 import './Home.css'
 const Home = () => {
   return (
@@ -15,11 +15,11 @@ const Home = () => {
                             Crafting Engaging Learning Experiences: <br/>Transforming  knowlegde into impactful <br/>Design for your Learning Journey.
                         </h4>
                         <div className="mt-3">
-                            <div className="input-group">
+                            <div className="input-group ">
                                 <input type="search" className="form-control border-end-0 border search" value="search" id="example-search-input" />
                                 <span className='input-group-append'>
                                     <button className="btn btn-outline-secondary bg-white border-start-0 border-bottom-0 border ms-n5" type='button'>
-                                        <i className="fa fa-search"></i>
+                                       
                                     </button>
                                 </span>
                             </div>
@@ -27,7 +27,10 @@ const Home = () => {
                     </div>
 
                     <div className="col-lg-6 order-1 order-lg-2 header-img">
-                        <img src={web} alt="" className="img-fluid animated" />
+                        <img src={webimg} alt="" className="img-fluid animated" />
+                    </div>
+                    <div className="fix-btn">
+                    <i class="fa-solid fa-arrow-down arrow"></i>
                     </div>
                     </div>
                 </div>

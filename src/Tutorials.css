@@ -1,0 +1,74 @@
+.tutheading{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 300%;
+    margin-top: 10%;
+}
+
+.container{
+    display: flex;
+    margin-top: -10%;
+    padding: 0 35px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.wrapper{
+    max-width: 1200px;
+    position: relative;
+}
+
+.wrapper i{
+    top:55%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 46px;
+    background: #3498db;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+}
+.wrapper i:first-child{
+    left: -23px;
+}
+.wrapper i:last-child{
+    right: -23px;
+}
+.wrapper .carousel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.carousel img{
+    height: 340px;
+    object-fit: cover;
+    margin-left: 14px;
+    width: calc(100%/3);
+}
+.carousel{
+    margin-top: 5%;
+}
+
+.carousel img:first-child{
+    margin-left: 0px;
+}
+
+@media screen and (max-widht:900px){
+    .carousel img{
+        width: calc(100%/2);
+    }
+}
+
+
+@media screen and (max-widht:550px){
+    .carousel img{
+        width: 100%; 
+    }
+}

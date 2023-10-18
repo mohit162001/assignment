@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import Boxes from "./Boxes";
 import Tutorials from "./Tutorials";
 import Footer from "./Footer";
+import { Link } from "react-scroll";
 function NavBar() {
   return (
     <>
@@ -12,6 +13,7 @@ function NavBar() {
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
+                <i class="fa-solid fa-crown crown"></i>
                   Landguru
                 </NavLink>
                 <button
