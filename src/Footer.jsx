@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Footer.css'
+import Question from "./Question";
 
 const Footer = () => {
+  <Question/>
   return (
     <>
       <div className="container-fluid ">

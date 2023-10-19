@@ -16,6 +16,7 @@
 }
 
 .footer-link-wrapper{
+    border-top: 1px solid rgb(207, 207, 207);
     margin-left: 70%;
     column-gap: 80px;
     display: flex;
@@ -47,8 +48,9 @@
 }
 
 .footer-link-items a:hover{
-    color: brown;
+    color: rgb(165, 42, 161);
     transition: 0.3s ease-out;
+    text-decoration: underline ;
 }
 
 @media screen and (max-width:820px){

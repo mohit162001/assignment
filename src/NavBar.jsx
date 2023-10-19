@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
 import Boxes from "./Boxes";
 import Tutorials from "./Tutorials";
 import Footer from "./Footer";
 import { Link } from "react-scroll";
 function NavBar() {
+  const tutorials = useRef(null);
+  const support = useRef(null);
+  const contact = useRef(null);
+  const scrollTosection = (elementRef)=>{
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior:"smooth",
+    })
+  };
   return (
     <>
       <div className="container-fluid nav_bg">
@@ -31,7 +40,7 @@ function NavBar() {
                   id="navbarSupportedContent">
                   <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                      <NavLink
+                      <NavLink 
                         className="nav-link active"
                         aria-current="page"
                         to="/">
@@ -39,19 +48,19 @@ function NavBar() {
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/Tutorials">
+                      <NavLink onClick={()=>scrollTosection(tutorials)} className="nav-link" to="/tutorials">
                         Advertise
                       </NavLink>
                     </li>
 
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/Boxes">
+                      <NavLink onClick={()=>scrollTosection(support)} className="nav-link" to="/boxes">
                         Support
                       </NavLink>
                     </li>
 
                     <li className="nav-item">
-                      <NavLink className="nav-link" to="/Footer">
+                      <NavLink onClick={()=>scrollTosection(contact)} className="nav-link" to="/contact">
                         Contact
                       </NavLink>
                     </li>
